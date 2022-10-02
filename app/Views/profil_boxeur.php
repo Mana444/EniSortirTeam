@@ -8,83 +8,79 @@
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Profil Boxeur</title>
 </head>
-<body>
+<body style="width:280px;">
      <div class="field">
-  <label class="label">Name</label>
+  <label class="label">Prénom</label>
   <div class="control">
-    <input class="input" type="text" placeholder="Text input">
+    <input class="input" type="text" placeholder="Toto">
   </div>
 </div>
-
-<div class="field">
-  <label class="label">Username</label>
-  <div class="control has-icons-left has-icons-right">
-    <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-    <span class="icon is-small is-left">
-      <i class="fas fa-user"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-check"></i>
-    </span>
+  <div class="field">
+  <label class="label">Nom</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Toto">
   </div>
-  <p class="help is-success">This username is available</p>
 </div>
-
 <div class="field">
-  <label class="label">Email</label>
-  <div class="control has-icons-left has-icons-right">
-    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-    <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-exclamation-triangle"></i>
-    </span>
+  <label class="label">Age</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="38 ans">
   </div>
-  <p class="help is-danger">This email is invalid</p>
 </div>
-
 <div class="field">
-  <label class="label">Subject</label>
+  <label class="label">Date de Naissance</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="02/10/2022">
+  </div>
+</div>
+<div class="field">
+  <label class="label">Lieu de Naissance</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Papeete">
+  </div>
+</div>
+    <div class="field">
+  <label class="label">Poids</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="84 kg">
+  </div>
+</div>
+<div class="field">
+  <label class="label">Catégorie</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Poids Lourds">
+  </div>
+</div>
+<div class="field">
+  <label class="label">Palamrès</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Victoires/Défaites/Nuls">
+  </div>
+</div>
+<div class="field">
+  <label class="label">Main Forte</label>
   <div class="control">
     <div class="select">
       <select>
-        <option>Select dropdown</option>
-        <option>With options</option>
+        <option>Droitier</option>
+        <option>Gaucher</option>
+        <option>Ambidextre</option>
       </select>
     </div>
   </div>
 </div>
-
 <div class="field">
-  <label class="label">Message</label>
+  <label class="label">Spécialité</label>
   <div class="control">
-    <textarea class="textarea" placeholder="Textarea"></textarea>
+    <input class="input" type="text" placeholder="Crohet Sauté">
   </div>
 </div>
-
 <div class="field">
+  <label class="label">Description</label>
   <div class="control">
-    <label class="checkbox">
-      <input type="checkbox">
-      I agree to the <a href="#">terms and conditions</a>
-    </label>
+    <input class="input" type="text" placeholder="un peu d'histoire">
   </div>
 </div>
-
-<div class="field">
-  <div class="control">
-    <label class="radio">
-      <input type="radio" name="question">
-      Yes
-    </label>
-    <label class="radio">
-      <input type="radio" name="question">
-      No
-    </label>
-  </div>
-</div>
-
 <div class="field is-grouped">
   <div class="control">
     <button class="button is-link">Submit</button>
